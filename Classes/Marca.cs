@@ -29,7 +29,7 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
         public string Deletar(Marca marcaDeletada){
             if (ListaMarcas != null)
             {
-            ListaMarcas.RemoveAll(x => x.Codigo == marcaDeletada.Codigo);
+            ListaMarcas.Remove(marcaDeletada);
             return $"{marcaDeletada.NomeMarca} foi deletgitada com sucesso";
             }
             return "não há marcas cadastradas";
