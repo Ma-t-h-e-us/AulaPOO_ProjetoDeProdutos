@@ -11,16 +11,28 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
 
         List<Marca> ListaMarcas = new List<Marca>();
 
-        public string Cadastrar(Marca _NomeMarca){
-            ListaMarcas.Add(_NomeMarca);
-            return $"{_NomeMarca} cadastrado";
+        public Marca() {
+        }
+
+        public Marca(int _Codigo, string _NomeMarca, DateTime _DataCadastro){
+            this.Codigo = _Codigo;
+            this.NomeMarca = _NomeMarca;
+            this.DataCadastro = _DataCadastro;
+        }
+        public string Cadastrar(Marca marca){
+            ListaMarcas.Add(marca);
+            return $"{NomeMarca} cadastrado com sucesso";
         }   
-        public List<Marca> listar(){
+        public List<Marca> Listar(){
             return ListaMarcas;
         }
-        public string Deletar(string MarcaDeletar){
-            ListaMarcas.RemoveAll(x => x.NomeMarca == MarcaDeletar);
-            return $"{MarcaDeletar} foi deletada com sucesso";
+        public string Deletar(Marca marca){
+            if (ListaMarcas != null)
+            {
+            ListaMarcas.RemoveAll(x => x.Codigo == marca.Codigo);
+            return $"{marca.NomeMarca} foi deletada com sucesso";
+            }
+            return "não há determinada marca cadastrada";
         }
     }
 }
