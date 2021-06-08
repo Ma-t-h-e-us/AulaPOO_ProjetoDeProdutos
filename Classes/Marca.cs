@@ -26,13 +26,13 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
         public List<Marca> Listar(){
             return ListaMarcas;
         }
-        public string Deletar(Marca marca){
+        public string Deletar(Marca marcaDeletada){
             if (ListaMarcas != null)
             {
-            ListaMarcas.RemoveAll(x => x.Codigo == marca.Codigo);
-            return $"{marca.NomeMarca} foi deletada com sucesso";
+            ListaMarcas.RemoveAll(x => x.Codigo == marcaDeletada.Codigo);
+            return $"{marcaDeletada.NomeMarca} foi deletada com sucesso";
             }
-            return "não há determinada marca cadastrada";
+            return "não há marcas cadastradas";
         }
     }
 }
