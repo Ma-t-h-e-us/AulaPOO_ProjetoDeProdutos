@@ -21,7 +21,7 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
         }
         public string Cadastrar(Marca marca){
             ListaMarcas.Add(marca);
-            return $"{NomeMarca} cadastrado com sucesso";
+            return $"{marca.NomeMarca} cadastrado com sucesso";
         }   
         public List<Marca> Listar(){
             return ListaMarcas;
