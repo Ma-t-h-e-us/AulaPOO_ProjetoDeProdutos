@@ -30,7 +30,7 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
             if (ListaMarcas != null)
             {
             ListaMarcas.RemoveAll(x => x.Codigo == marcaDeletada.Codigo);
-            return $"{marcaDeletada.NomeMarca} foi deletada com sucesso";
+            return $"{marcaDeletada.NomeMarca} foi deletgitada com sucesso";
             }
             return "não há marcas cadastradas";
         }

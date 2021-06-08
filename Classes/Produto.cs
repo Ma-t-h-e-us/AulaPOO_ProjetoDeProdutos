@@ -13,6 +13,16 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
         protected Usuario CadastradoPor;
         protected List<Produto> ListaDeProdutos = new List<Produto>();
 
+        public Produto(){
+        }
+        public Produto(int _Codigo, string _NomeProduto, float _Preco, DateTime _DataCadastro, Marca _Marca, Usuario _CadastradoPor){
+            Codigo = _Codigo;
+            NomeProduto = _NomeProduto;
+            Preco = _Preco;
+            DataCadastro = _DataCadastro;
+            Marca = _Marca;
+            CadastradoPor = _CadastradoPor; 
+        }
         public string Cadastrar(Produto produtoCadastrar)
         {
             ListaDeProdutos.Add(produtoCadastrar);
