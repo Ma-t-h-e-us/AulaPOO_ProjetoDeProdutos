@@ -9,7 +9,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
 
         private int Codigo { get; set; }
 
-        private string Nome { get; set; }
+        public string Nome { get; set; }
 
         private string Email { get; set; }
 

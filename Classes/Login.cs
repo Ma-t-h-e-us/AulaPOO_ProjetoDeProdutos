@@ -14,7 +14,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                 Logado = false;
                 return $@"
                 
-                                {d.}
+                                {d.Nome}
                          Você Saiu......... Até Mais!!
  ";
             }
@@ -29,7 +29,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                 Logado = true;
                 return $@"
                 
-                                {Usuario.Nome}
+                                {l.Nome}
                          Você Entrou......... Bem Vindo!!
  ";
             }
