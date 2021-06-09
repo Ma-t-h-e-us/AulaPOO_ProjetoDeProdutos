@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using AulaPOO_ProjetoDeProdutos.Classes;
 using AulaPOO_ProjetoDeProdutos_Branches.Interfaces;
 
 namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
