@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using AulaPOO_ProjetoDeProdutos.Classes;
 
 namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
 {

@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\": {}
+    "C:\\Users\\dev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\Atividades\\AulaPOO_ProjetoDeProdutos_Branches\\AulaPOO_ProjetoDeProdutos_Branches.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos_Branches.csproj",
       "projectName": "AulaPOO_ProjetoDeProdutos_Branches",
-      "projectPath": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\Atividades\\AulaPOO_ProjetoDeProdutos_Branches\\AulaPOO_ProjetoDeProdutos_Branches.csproj",
-      "packagesPath": "C:\\Users\\T-Gamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T-Gamer\\Desktop\\SENAI_ATIV\\Atividades\\AulaPOO_ProjetoDeProdutos_Branches\\obj\\",
+      "projectPath": "C:\\Users\\dev\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos_Branches.csproj",
+      "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dev\\Desktop\\AulaPOO_ProjetoDeProdutos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\T-Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
