@@ -106,7 +106,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                     if (usuarioEncontrado == null)
                     {
                         Console.WriteLine(Logar(NovoUsuario));
-                        Logado = false;
+                        Logado = true;
                         Console.WriteLine(@"
                       + + + + + 
                       + Entrar +
@@ -114,6 +114,10 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                     ");
 
 
+                    }
+                    else
+                    {
+                        Logado = false;
                     }
                 } while (Logado == true);
 
@@ -138,7 +142,10 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                 
                                 {l.Nome}
                          Você Entrou......... Bem Vindo!!
+
+                         
  ";
+                             
             }
             return "Você Não se Logou";
         }
