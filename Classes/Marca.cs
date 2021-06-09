@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
+using AulaPOO_ProjetoDeProdutos_Branches.Interfaces;
 
 namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
 {
-    public class Marca
+    public class Marca : IMarca
     {
         protected int Codigo;
         protected string NomeMarca;
