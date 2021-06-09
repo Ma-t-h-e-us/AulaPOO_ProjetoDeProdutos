@@ -103,7 +103,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
 
                     Usuario usuarioEncontrado = u.ListaUsuario.Find(x => x.Email == EmailLogar && x.Senha == SenhaLogar);
 
-                    if (usuarioEncontrado == null)
+                    if (usuarioEncontrado != null)
                     {
                         Console.WriteLine(Logar(NovoUsuario));
                         Logado = true;
@@ -112,10 +112,32 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                       + Entrar +
                       + + + + +
                     ");
+                        Console.WriteLine(@"
+            + + + + + + + + + + + + + + +
+            +                           +
+            +        O QUE DESEJA       +
+            +                           +     
+            +    1 - Cadastrar Produto  +
+            +    2 - Cadastrar Marca    +
+            +    3 - listar             +
+            +    4 - Remover            +
+            +    5 - SAIR               +
+            + + + + + + + + + + + + + + +
+            ");
+                        int Resposta2 = int.Parse(Console.ReadLine());
+                        if (Resposta2 == 1)
+                        {
+                            
+                            Console.WriteLine("");
+
+                        }else if (Resposta2 == 2)
+                        {
+                            Console.WriteLine("");
+                        }
+                        
 
 
-                    }
-                    else
+                    }else
                     {
                         Logado = false;
                     }
@@ -141,11 +163,9 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                 return $@"
                 
                                 {l.Nome}
-                         Você Entrou......... Bem Vindo!!
+                         Você Entrou......... Bem Vindo!!";
 
-                         
- ";
-                             
+
             }
             return "Você Não se Logou";
         }
