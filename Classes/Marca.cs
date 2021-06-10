@@ -7,10 +7,10 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
     public class Marca : IMarca
     {
         protected int Codigo;
-        protected string NomeMarca;
+        public string NomeMarca;
         protected DateTime DataCadastro;
 
-        List<Marca> ListaMarcas = new List<Marca>();
+        public List<Marca> ListaMarcas = new List<Marca>();
 
         public Marca() {
         }

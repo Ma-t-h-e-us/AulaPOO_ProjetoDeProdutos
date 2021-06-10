@@ -8,12 +8,12 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
     public class Produto : IProduto
     {
         protected int Codigo;
-        protected string NomeProduto;
+        public string NomeProduto;
         protected float Preco;
         protected DateTime DataCadastro;
         protected Marca Marca;
         protected Usuario CadastradoPor;
-        protected List<Produto> ListaDeProdutos = new List<Produto>();
+        public List<Produto> ListaDeProdutos = new List<Produto>();
 
         public Produto(){
         }
