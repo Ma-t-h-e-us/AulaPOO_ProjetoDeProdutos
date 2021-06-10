@@ -145,10 +145,18 @@ do
                             Console.WriteLine("marca cadastrada");
                             break;
                         case 3:
-                            Console.WriteLine(p.Listar());
+                            foreach (var item in p.Listar())
+                            {
+                                Console.WriteLine($@"
+                            {item.NomeProduto} -- {item.Preco:C2}");
+                            }
                             break;
                         case 4:
-                            Console.WriteLine(m.Listar());
+                            foreach (var item in m.Listar())
+                            {
+                                Console.WriteLine($@"
+                            {item.NomeMarca} -- Data cadastro:{item.DataCadastro}");
+                            }
                             break;
                         case 5:
                             u.Deletar(usuarioEncontrado);

@@ -9,7 +9,7 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
     {
         protected int Codigo;
         public string NomeProduto;
-        protected float Preco;
+        public float Preco;
         protected DateTime DataCadastro;
         protected Marca Marca;
         protected Usuario CadastradoPor;

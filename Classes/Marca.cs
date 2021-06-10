@@ -8,7 +8,7 @@ namespace AulaPOO_ProjetoDeProdutos_Branches.Classes
     {
         protected int Codigo;
         public string NomeMarca;
-        protected DateTime DataCadastro;
+        public DateTime DataCadastro;
 
         public List<Marca> ListaMarcas = new List<Marca>();
 
